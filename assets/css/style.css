@@ -51,7 +51,7 @@ img {
     background-color: #4aaaa5;
     color: white;
     display:inline-block;
-    margin-left:9%;
+    margin-left: 13.5%;
     padding: 9px;
 }
 /*Figure out how to keep the links from shifting */
@@ -60,7 +60,7 @@ img {
     width: 250px;
     float: right;
     padding-top: 2%;
-    padding-right: 18%;
+    padding-right: 25%;
 }
 .sidebar li {
     list-style: none;
@@ -79,9 +79,11 @@ img {
     color: white;
 }
 .main-wrapper {
-    height: 80vh;
-    background-color: whitesmoke;
+    background-image: url("../../assets/images/dust_scratches.png");
     padding-top: 1%;
+    padding-bottom: 9%;
+    padding-left: 5%;
+        
 }
 #about-box > h1 {
     font-size: 25px;
@@ -89,4 +91,13 @@ img {
     padding-top: 3%;
     padding-bottom: 3%;
     border-bottom: 2px solid #ddd;
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666;
+}
+
+.footer > p {
+    text-align: center;
 }

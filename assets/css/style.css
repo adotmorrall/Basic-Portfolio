@@ -38,6 +38,7 @@ img {
 #about-box {
     width: 960px;
     margin-left:9%;
+    margin-right:9%;
     background-color: white;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -46,12 +47,18 @@ img {
 .header {
     background-color: white;
     border-bottom: 1px solid #777;
+    width: auto;
+}
+/* Style for sub-header */
+.sub-head {
+    width: 1017px;
+    margin-left: 177px;
 }
 .main-box {
     background-color: #4aaaa5;
     color: white;
     display:inline-block;
-    margin-left: 13.5%;
+    /* margin-left: 13.5%; */
     padding: 9px;
 }
 /*Figure out how to keep the links from shifting */
@@ -101,3 +108,5 @@ img {
 .footer > p {
     text-align: center;
 }
+
+/*

@@ -18,7 +18,7 @@ a {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    width: 75%;
+    width: auto;
     float: none;
     line-height: 2em;
 }
@@ -37,37 +37,35 @@ img {
 /* Style for the About me section */
 #about-box {
     width: 960px;
-    margin-left:9%;
-    margin-right:9%;
+/*     margin-left:9%;
+    margin-right:9%; */
     background-color: white;
-    padding-left: 5%;
-    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 9%;
 }
 /* Style for the top of the webpage */
 .header {
     background-color: white;
     border-bottom: 1px solid #777;
     width: auto;
-}
-/* Style for sub-header */
-.sub-head {
-    width: 1017px;
-    margin-left: 177px;
+    padding-right: 30%;
+    padding-left: 20%;
 }
 .main-box {
     background-color: #4aaaa5;
     color: white;
     display:inline-block;
-    /* margin-left: 13.5%; */
     padding: 9px;
 }
 /*Figure out how to keep the links from shifting */
 .sidebar {
-    display: inline-block;
-    width: 250px;
+    /* width: 250px; */
     float: right;
-    padding-top: 2%;
-    padding-right: 25%;
+    padding: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
+    /* margin-left: 50%; */
 }
 .sidebar li {
     list-style: none;
@@ -87,10 +85,11 @@ img {
 }
 .main-wrapper {
     background-image: url("../../assets/images/dust_scratches.png");
-    padding-top: 1%;
-    padding-bottom: 9%;
-    padding-left: 5%;
-        
+    padding-top: 3%;
+    padding-bottom: 288px;
+    padding-left: 20%;
+    width: 960px;
+    padding-right: 33%;        
 }
 #about-box > h1 {
     font-size: 25px;
@@ -106,7 +105,90 @@ img {
 }
 
 .footer > p {
+/*     text-align: center;
+    color: white;
+    padding-left: 8%; */
+/*     padding-top: 47px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%; */
+    color: white;
     text-align: center;
+    background-color: #666;
+    width: auto;
+    padding-right: 30%;
+    padding-left: 20%;  
 }
 
-/*
+/*Style for Contact.html */
+
+/* .footer2 {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666;
+} */
+.main-wrapper2 {
+    background-image: url("../../assets/images/dust_scratches.png");
+/*     padding-top: 10%;
+    padding-bottom: 10%; */
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 960px;
+    padding-top: 3%;
+    padding-right: 662px;
+    padding-left: 15.5%;
+    padding-bottom: 15%;
+}
+/* .footer2 > p {
+    text-align: center;
+    color: white;
+    padding-left: 8%;
+    padding-top: 47px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #666;
+    width: auto;
+    padding-right: 30%;
+    padding-left: 20%;
+} */
+
+#about-box2 {
+    width: 960px;
+    margin-left: 9%;
+    margin-right: 9%;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 22%;  
+}
+#about-box2 > h1 {
+    font-size: 25px;
+    color: #4aaaa5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid #ddd;
+}
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+

@@ -123,6 +123,7 @@ html {
     padding-bottom: 3%;
     border-bottom: 2px solid #ddd;
 }
+    /* contact.html-Forms */
 form.form-example {
     display: table;
     font-family: Arial, Helvetica, sans-serif;
@@ -132,7 +133,6 @@ div.form-example {
     display: table-row;
 }
 label, input {
-/*     display: table-cell; */
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;  
@@ -158,7 +158,7 @@ input#message {
     margin-top: 5px;
 }
 input[type="submit" i] {
-    background-color: teal;
+    background-color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     border: none;
@@ -168,6 +168,7 @@ input[type="submit" i] {
     padding-bottom: 5px;
     margin-top: 5px;
 }
+    /* contact.html-Footer */
 .contact-footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666;
@@ -185,16 +186,15 @@ input[type="submit" i] {
 .portfolio-wrapper {
     background-image: url("../../assets/images/dust_scratches.png");
     padding-top: 16px;
-    padding-bottom: 0;
-    height: 960px;
+    padding-bottom: 75px;
+/*     height: 1507px; */
 }
 #portfolio-box {
-/*     display: grid; */
     width: 960px;
     background-color: white;
     padding-left: 3%;
     padding-right: 3%;
-    padding-bottom: 42%;
+    padding-bottom: 8%;
     margin-left: 20%;  
 }
 #portfolio-box > h1 {
@@ -203,6 +203,28 @@ input[type="submit" i] {
     padding-top: 3%;
     padding-bottom: 3%;
     border-bottom: 2px solid #ddd;
+}
+    /* portfolio.html-Photo grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 475px auto;
+}
+.grid-item {
+    padding: 20px;
+}
+.grid-item > img {
+    width: 400px;
+    padding: 1px;
+}
+.text-block {
+    position: absolute;
+    text-align: center;
+    width: 402px;
+    margin-top: 11%;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 .portfolio-footer {
     border-top: 8px solid #4aaaa5;
@@ -215,11 +237,4 @@ input[type="submit" i] {
     width: auto;
     padding-right: 30%;
     padding-left: 20%;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.grid-item {
-    padding: 20px;
 }

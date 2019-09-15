@@ -1,10 +1,4 @@
-/* Style sheet for index.html */
-
-/* * {
-    border: .2px solid gray;
-} */
-
-/*          Global style settings stars      */
+/* Global settings  */
 
 body {
     margin: 0;
@@ -32,22 +26,8 @@ img {
 html {
     height: 100%;
 }
-
-/*          Global style settings end       */
-
-
-/* Style for the About me section */
-#about-box {
-    width: 960px;
-/*     margin-left:9%;
-    margin-right:9%; */
-    background-color: white;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 4%;
-    margin-left: 20%;
-}
-/* Style for the top of the webpage */
+/* Style sheet for index.html */
+    /* index.html-Header*/
 .header {
     background-color: white;
     border-bottom: 1px solid #777;
@@ -61,14 +41,11 @@ html {
     display:inline-block;
     padding: 9px;
 }
-/*Figure out how to keep the links from shifting */
 .sidebar {
-    /* width: 250px; */
     float: right;
     padding: 3%;
     padding-left: 0%;
     padding-right: 0%;
-    /* margin-left: 50%; */
 }
 .sidebar li {
     list-style: none;
@@ -86,14 +63,20 @@ html {
     background-color: #4aaaa5;
     color: white;
 }
-.main-wrapper {
+    /* index.html-About Me */
+.about-wrapper {
     background-image: url("../../assets/images/dust_scratches.png");
     padding-top: 3%;
     padding-bottom: 0;
     height: 722px;
-/*     padding-left: 20%; */
-/*     width: 960px; */
-/*     padding-right: 33%;     */    
+}
+#about-box {
+    width: 960px;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+    margin-left: 20%;
 }
 #about-box > h1 {
     font-size: 25px;
@@ -102,22 +85,12 @@ html {
     padding-bottom: 3%;
     border-bottom: 2px solid #ddd;
 }
-
-.footer {
+    /* index.html-Footer */
+.about-footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666;
 }
-
-.footer > p {
-/*     text-align: center;
-    color: white;
-    padding-left: 8%; */
-/*     padding-top: 47px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    position: fixed;
-    bottom: 0;
-    width: 100%; */
+.about-footer > p {
     color: white;
     text-align: center;
     background-color: #666;
@@ -125,54 +98,23 @@ html {
     padding-right: 30%;
     padding-left: 20%;  
 }
-
 /*Style for Contact.html */
-
-/* .footer2 {
-    border-top: 8px solid #4aaaa5;
-    background-color: #666;
-} */
-.main-wrapper2 {
+    /* contact.html-Header*/
+.contact-wrapper {
     background-image: url("../../assets/images/dust_scratches.png");
-/*     padding-top: 10%;
-    padding-bottom: 10%; */
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    width: 960px;
-    padding-top: 3%;
-    padding-right: 662px;
-    padding-left: 15.5%;
-    padding-bottom: 15%;
+    padding-top: 16px;
+    padding-bottom: 0;
+    height: 763px;
 }
-/* .footer2 > p {
-    text-align: center;
-    color: white;
-    padding-left: 8%;
-    padding-top: 47px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    background-color: #666;
-    width: auto;
-    padding-right: 30%;
-    padding-left: 20%;
-} */
-
-#about-box2 {
+#contact-box {
     width: 960px;
-    margin-left: 9%;
-    margin-right: 9%;
     background-color: white;
     padding-left: 3%;
     padding-right: 3%;
-    padding-bottom: 4%;  
+    padding-bottom: 4%;
+    margin-left: 20%;  
 }
-#about-box2 > h1 {
+#contact-box > h1 {
     font-size: 25px;
     color: #4aaaa5;
     padding-top: 3%;
@@ -184,25 +126,20 @@ form.form-example {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
 }
-
 div.form-example {
     display: table-row;
 }
-
 label, input {
 /*     display: table-cell; */
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    
+    color: #777;  
 }
-
 label {
     padding-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
 }
-
 input#name {
     width: 875px;
     height: 20px;
@@ -217,4 +154,32 @@ input#message {
     width: 875px;
     height: 275px;
     margin-top: 5px;
+}
+input[type="submit" i] {
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.contact-footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666;
+}
+.contact-footer > p {
+    color: white;
+    text-align: center;
+    background-color: #666;
+    width: auto;
+    padding-right: 30%;
+    padding-left: 20%;
+}
+/*Style for Portfolio.html */
+    /* portfolio.html-Header*/
+.portfolio-wrapper {
+    
 }
